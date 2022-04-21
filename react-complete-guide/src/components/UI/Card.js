@@ -1,4 +1,4 @@
-import '../../style/Card.css';
+import '../../style/UI/Card.css';
 
 const Card = (props) => {
   const classes = 'card ' + props.className;
