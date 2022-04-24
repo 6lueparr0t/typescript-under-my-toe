@@ -1,8 +1,7 @@
-function greet(who: string): void {
-  console.log('Hello', who)
-  console.log('Hello Hi', who)
-}
+import studyCode from "./StudyCode"
+import findStar from "./FindStar"
 
-greet('jn')
+//studyCode();
+findStar();
 
 export default {}
