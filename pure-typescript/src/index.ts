@@ -1,7 +1,7 @@
 import studyCode from "./StudyCode"
-import findStar from "./FindStar"
+import findStarDay1 from "./FindStarDay1"
 
 //studyCode();
-findStar();
+findStarDay1();
 
 export default {}
