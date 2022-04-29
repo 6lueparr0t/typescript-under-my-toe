@@ -42,25 +42,4 @@ export default function() {
   }
   
   liveDangerously(123.123);
-  
-  interface Square {
-    width: number
-  }
-  interface Rectangle extends Square {
-    height: number
-  }
-  type Shape = Square | Rectangle
-  function calculateArea(shape: Shape) {
-    console.log("fn:calculateArea => ");
-    // in : 타입이 있는지 없는지 조사한다.
-    if ('height' in shape) {
-      return shape.width * shape.height
-    } else {
-      return shape.width * shape.width
-    }
-  }
-  
-  const shape:Shape = {width:100, height:200};
-  
-  console.log(calculateArea(shape));
 }
