@@ -1,5 +1,5 @@
-import { IBooleans, IValues, IStructures } from './interfaces/example';
-import hello from './Hello'
+import { IBooleans, IValues, IStructures } from '../../interfaces/example';
+import hello from '../../Hello'
 
 export default function() {
   hello();
